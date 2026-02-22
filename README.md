@@ -2,7 +2,7 @@
 
 A lightweight JavaScript utility that applies a realistic, time-of-day-aware long shadow to any element on your page. The shadow direction and length update automatically based on the user's local time — long and angled in the morning, short at noon, long and opposite in the evening.
 
-**[View demo →](https://mrbrianmorris.github.io/tod-shadow)**
+**[View demo →](https://mrbeemo.github.io/tod-shadow)**
 
 ---
 
