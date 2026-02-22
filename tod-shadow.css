@@ -1,0 +1,7 @@
+/* tod-shadow.css — Time of Day Shadow
+ * mrbrianmorris.com */
+
+.tod-shadow {
+  /* box-shadow is applied dynamically by tod-shadow.js */
+  transition: box-shadow 0.6s ease;
+}
