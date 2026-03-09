@@ -1,6 +1,6 @@
 # Time of Day Shadow
 
-A lightweight JavaScript utility that applies a realistic, time-of-day-aware long shadow to any element on your page. The shadow direction and length update automatically based on the user's local time — long and angled in the morning, short at noon, long and opposite in the evening.
+A lightweight JavaScript utility that applies a realistic, time-of-day-aware long shadow to any element on a page. The shadow direction and length update automatically based on the user's local time—long and angled in the morning, short at noon, long and opposite in the evening.
 
 **[View demo →](https://mrbeemo.github.io/tod-shadow)**
 
@@ -8,7 +8,7 @@ A lightweight JavaScript utility that applies a realistic, time-of-day-aware lon
 
 ## How it works
 
-The shadow is built using Josh Comeau's exponential layering technique — 7 `box-shadow` layers whose offsets double at each step, with `blur = offset` at every layer. This dissolves the rectangular shadow edges naturally into the background. All layers use pure `rgba(0,0,0,x)` so the effect works on any background color.
+The shadow is built using Josh Comeau's exponential layering technique. 7 `box-shadow` layers whose offsets double at each step, with `blur = offset` at every layer. This dissolves the rectangular shadow edges naturally into the background. All layers use pure `rgba(0,0,0,x)` so the effect works on any background color.
 
 Shadow direction is derived from a simplified solar position model:
 - **6am** → long shadow pointing right
